@@ -1,34 +1,64 @@
+# =====================
+# GLOBAL
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.DS_Store
+.env
+venv/
+.env*
+.idea/
+.vscode/
+*.iml
+
+# =====================
+# BACKEND (Python)
+# =====================
+/backend/__pycache__/
+/backend/venv/
+/backend/*.pyc
+/backend/.env
+/backend/data/*.json
+/backend/*.db
+
+# =====================
+# DASHBOARD (Streamlit)
+# =====================
+/dashboard/__pycache__/
+/dashboard/venv/
+/dashboard/.streamlit/secrets.toml
+
+# =====================
+# ANDROID (Gradle/Studio)
+# =====================
 # Gradle files
 .gradle/
 build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Local configuration
+/local.properties
+/.idea/
+.cxx/
 
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
+# Android Studio caches
 captures/
 .externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+output.json
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
+# Signing keys
 *.jks
 *.keystore
+signing.properties
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Log files
+*.log
 
-# Android Profiling
-*.hprof
+# =====================
+# Node/npm (if you add frontend later)
+# =====================
+node_modules/
