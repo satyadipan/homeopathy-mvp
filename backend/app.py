@@ -26,6 +26,10 @@ class SymptomRequest(BaseModel):
     user_id: str
     text: str
 
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
 @app.post("/api/symptom")
 def get_suggestion(data: SymptomRequest):
     """
