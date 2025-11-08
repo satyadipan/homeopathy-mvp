@@ -9,6 +9,7 @@ __pycache__/
 *.DS_Store
 .env
 venv/
+homeobackenv/
 .env*
 .idea/
 .vscode/
@@ -18,7 +19,7 @@ venv/
 # BACKEND (Python)
 # =====================
 /backend/__pycache__/
-/backend/venv/
+/backend/homeobackenv/
 /backend/*.pyc
 /backend/.env
 /backend/data/*.json
@@ -28,7 +29,7 @@ venv/
 # DASHBOARD (Streamlit)
 # =====================
 /dashboard/__pycache__/
-/dashboard/venv/
+/dashboard/homeobackenv/
 /dashboard/.streamlit/secrets.toml
 
 # =====================
