@@ -9,7 +9,7 @@ __pycache__/
 *.DS_Store
 .env
 venv/
-/backend/homeobackenv/
+backend/homeobackenv/
 .env*
 .idea/
 .vscode/
